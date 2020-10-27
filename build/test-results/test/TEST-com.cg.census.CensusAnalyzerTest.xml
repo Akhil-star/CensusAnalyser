@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.census.CensusAnalyzerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-27T13:01:09" hostname="DESKTOP-AURK5V2" time="0.169">
+<testsuite name="com.cg.census.CensusAnalyzerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-27T13:24:57" hostname="DESKTOP-AURK5V2" time="0.223">
   <properties/>
-  <testcase name="givenStateCodeFile_WithWrongFileType_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.006"/>
-  <testcase name="givenStateCode_WithWrongFile_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.0"/>
-  <testcase name="givenIndiaCensusDataWithIncorrectDelimiterShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.113"/>
-  <testcase name="givenStateCensusCSVFileShouldReturnNumberOfCorrectRecords" classname="com.cg.census.CensusAnalyzerTest" time="0.011"/>
-  <testcase name="givenStateCensusDataWithWrongFileTypeShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.0"/>
-  <testcase name="givenStateCensusDataWithWrongFileShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.0"/>
-  <testcase name="givenIndianStateCodeFile_ShouldReturn_CorrectRecords" classname="com.cg.census.CensusAnalyzerTest" time="0.008"/>
-  <testcase name="givenStateCensusDataWithWrongHeaderShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.019"/>
-  <testcase name="givenStateCodeCSVFile_WithIncorrectDelimiter_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.005"/>
-  <testcase name="givenStateCodeCSVFile_WithWrongHeader_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.004"/>
+  <testcase name="givenStateCodeFile_WithWrongFileType_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.008"/>
+  <testcase name="givenStateCode_WithWrongFile_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.001"/>
+  <testcase name="givenIndiaCensusDataWithIncorrectDelimiterShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.146"/>
+  <testcase name="givenStateCensusCSVFileShouldReturnNumberOfCorrectRecords" classname="com.cg.census.CensusAnalyzerTest" time="0.015"/>
+  <testcase name="givenStateCensusDataWithWrongFileTypeShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.001"/>
+  <testcase name="givenStateCensusDataWithWrongFileShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.001"/>
+  <testcase name="givenIndianStateCodeFile_ShouldReturn_CorrectRecords" classname="com.cg.census.CensusAnalyzerTest" time="0.015"/>
+  <testcase name="givenStateCensusDataWithWrongHeaderShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.021"/>
+  <testcase name="givenStateCodeCSVFile_WithIncorrectDelimiter_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.008"/>
+  <testcase name="givenStateCodeCSVFile_WithWrongHeader_ShouldThrowException" classname="com.cg.census.CensusAnalyzerTest" time="0.006"/>
   <system-out><![CDATA[StateCensusData.pdf
 F:\StateCensusData.csv
 com.opencsv.exceptions.CsvRequiredFieldEmptyException: Number of data fields does not match number of headers.
